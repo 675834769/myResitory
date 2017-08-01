@@ -1,0 +1,27 @@
+body{
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  font-size:0.12rem;
+}
+.header{
+  height:0.44rem;
+  border-bottom:1px solid #ccc;
+}
+
+
+.content{
+  flex:1;
+  overflow-y:scroll;
+}
+
+
+.footer{
+  display:flex;
+  height:0.44rem;
+  border-top:1px solid #ccc;
+  align-items:center;
+}
